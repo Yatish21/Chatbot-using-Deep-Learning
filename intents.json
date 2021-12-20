@@ -1,0 +1,52 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay","Yo"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "who are you",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m Personalized AI bot, your Personalized AI bot assistant", "I'm Artificial Intelligent bot which I'm here to help you"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Tina.", "I'm Tina!", "Just call me as Tina !!!"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site or https://internsoft.com/dashboard/", "Just go to our web site and follow the guidelines to create a new account or https://internsoft.com/dashboard/"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },	
+    {"tag": "course",
+     "patterns": ["How many courses are there","what all courses can i get","courses"],
+     "responses": ["There are of 1.Full Stack Software Development, 2.Data Analysis Using Python, 3.Internet Of Things Architecture And Embedded Systems Development, 4.Machine Learning With Robotics Language Automations, 5.Specialization in Data Science & Artificial Intelligence."]
+    },
+    {"tag": "contact",
+        "patterns":["Contact","Need more information","speak to manager"],
+        "responses":["Additional queries ? whatsapp Us .We'll reach you back ASAP +91 99644 83 843        +91 74833 00 668"]
+    },
+    {"tag": "management",
+        "patterns":["who is the founder of this company"],
+        "responses":[" Syed Asad      Founder & CEO - Airobosoft products and services.        Data Scientist in Artificial intelligence and Robotics. https://internsoft.com/"]
+    },
+    {"tag": "about",
+        "patterns":["About the company","Company"],
+        "responses":[" Internsoft is the website Launched by AiRobosoft Products & Services which is intentend to showcase the learning thy have created this website just to value the learning making it easy for the people who are triving to learn his was setup on year 2020"]
+    
+    }
+]
+}
